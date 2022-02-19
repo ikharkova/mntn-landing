@@ -1,0 +1,49 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+  margin-top: 30px;
+  position: relative;
+}
+.header__logo {
+  display: flex;
+  flex-direction: row;
+}
+.header__logo > span {
+  font-size: 30px;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.header__nav-link {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.header__nav-link:hover {
+  font-weight: 500;
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+.header__account {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  line-height: 0;
+  cursor: pointer;
+}
+.header__account-img {
+  width: 22px;
+}
+.header__account-text {
+  font-size: 16px;
+  font-weight: 400;
+}

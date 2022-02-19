@@ -1,0 +1,50 @@
+.footer__blok-logo {
+  margin-bottom: 24px;
+  display: flex;
+}
+.footer__blok-logo > span {
+  font-size: 25px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  
+}
+.footer__blok-text {
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+.footer__blok-copyright {
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer__about {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--acсent-color);
+  margin-bottom: 24px;
+}
+.footer-link {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--primery-color);
+  text-decoration: none;
+  margin-bottom: 14px;
+  transition: 0.3s ease;
+}
+.footer-link:hover {
+  font-weight: 400;
+  transform: scale(1.1);
+  color: var(--primery-color);
+  
+
+}
