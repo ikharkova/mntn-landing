@@ -61,7 +61,7 @@
             <h1 class="hero-section__main-titel text">A Hiking guide</h1>
           </div>
           <p class="hero-section__main-text title">Be prepared for the <br>Mountains and beyond!</p>
-          <a class="hero-section__main-link text" href="#">
+          <a class="hero-section__main-link text" href="#01">
             <span>scroll down</span>
             <div>
               <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,10 +77,10 @@
       <div class="container">
         <section class="main__section">
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-5 align-self-center">
+            <div class="col-1 col-md-2"></div>
+            <div class="col-10 col-md-5 align-self-center">
               <div id="01" class="main__information">
-                <div class="main__information-number text">01</div> 
+                <div class="main__information-number  text">01</div> 
                 <div class="main__information-pre-title">
                   <div class="main__information-pre-title-line"></div>
                   <span class="main__information-pre-title-text text">GEt Started</span>
@@ -97,26 +97,20 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 align-self-center">
+            <div class="col-md-4 align-self-center">
               <div class="main__picture">
                 <img src="./img/01.jpeg" alt="">
               </div>
             </div>
-            <div class="col-1"></div>
+            <div class="col-1 col-md-1"></div>
           </div>
         </section>
         <section class="main__section">
-          <div class="row">
-            <div class="col-1"></div>
-            <div class="col-4 align-self-center">
-              <div class="main__picture"> 
-                <img src="./img/02.jpeg" alt="">
-              </div>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5 align-self-center">
+          <div class="row flex-md-row-reverse">
+            <div class="col-1  col-md-1"></div>
+            <div class="col-10 col-md-5  align-self-center">
               <div id="02" class="main__information">
-                <div class="main__information-number">02</div>
+                <div class="main__information-number text">02</div>
                 <div class="main__information-pre-title">
                   <div class="main__information-pre-title-line"></div>
                   <span class="main__information-pre-title-text text">Hiking Essentials</span>
@@ -133,15 +127,21 @@
                 </div>
               </div>
             </div>
-            <div class="col-1"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4 .order-4 align-self-center">
+              <div class="main__picture"> 
+                <img src="./img/02.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col-1 col-md-1"></div>
           </div>
         </section>
         <section class="main__section">
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-5 align-self-center">
+            <div class="col-1 col-md-2 "></div>
+            <div class="col-10 col-md-5 align-self-center">
               <div id="03" class="main__information">
-                <div class="main__information-number">03</div>
+                <div class="main__information-number text">03</div>
                 <div class="main__information-pre-title">
                   <div class="main__information-pre-title-line"></div>
                   <span class="main__information-pre-title-text text">where you go is the key</span>
@@ -158,21 +158,21 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 align-self-center">
+            <div class="col-md-4 align-self-center">
               <div class="main__picture">
                 <img src="./img/03.jpeg" alt="">
               </div>
             </div>
-            <div class="col-1"></div>
+            <div class="col-1 col-md-1"></div>
           </div>
         </section>
       </div>
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-6">
+        <div class="row flex-column-reverse flex-md-row">
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
             <div class="footer__blok">
               <div class="footer__blok-logo"> 
                 <span class="title">M</span>
@@ -184,7 +184,7 @@
               <span class="footer__blok-copyright text">Copyright 2019 MNTN, Inc. Terms & Privacy</span>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-md-2">
             <div class="footer__nav">
               <h5 class="text footer-title">More on The Blog</h5>
               <a class="text footer-link" href="#">About MNTN</a>
@@ -194,7 +194,7 @@
               <a class="text footer-link" href="#">Privacy Policy</a>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-md-2">
             <div class="footer__about">
               <h5 class="text footer-title">More on MNTN</h5>
               <a class="text footer-link" href="#">The Team</a>
@@ -202,13 +202,13 @@
               <a class="text footer-link" href="#">Press</a>
             </div>
           </div>
-          <div class="col-1"></div>
+          <div class="col-md-1"></div>
         </div>
       </div>
     </footer>
 
     <!-- SVG gradient -->
-    <svg>
+    <svg style="width: 0;height: 0; display: block;">
       <defs>
         <linearGradient id="svg-insta-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:rgb(133, 66, 198);stop-opacity:1" />
