@@ -11,7 +11,7 @@
   left: 0;
   right: 0;
   height: 20vh;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(11,29,38,1) 100%);
+  background: linear-gradient(180deg, rgba(11,29,38,0) 0%, rgba(11,29,38,1) 100%);
 }
 .main__section {
   margin-bottom: 200px;
@@ -125,13 +125,6 @@
 }
 
 @media (max-width: 768px) {
-  .main {
-    margin-top: 0;
-  }
-  .main::before {
-    height: 0;
-    background: none;
-  }
   .main__section {
     margin-bottom: 100px;
   }
@@ -173,5 +166,14 @@
     display: flex;
     justify-content: center;
     margin: 0 20px;
+  }
+}
+@media (max-width: 495px) {
+  .main {
+    margin-top: 0;
+  }
+  .main::before {
+    height: 0;
+    background: none;
   }
 }
