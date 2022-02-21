@@ -125,6 +125,13 @@
 }
 
 @media (max-width: 768px) {
+  .main {
+    margin-top: 0;
+  }
+  .main::before {
+    height: 0;
+    background: none;
+  }
   .main__section {
     margin-bottom: 100px;
   }
